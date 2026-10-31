@@ -1,0 +1,159 @@
+{
+ "day": 10,
+ "week": 2,
+ "theme": "la casa, la routine quotidiana, l'ora",
+ "grammar": "present tense of regular verbs and reflexive verbs. Today: spelling changes in -care / -gare and -ciare / -giare verbs (cercare, asciugarsi, cominciare, mangiare).",
+ "words": [
+  {
+   "it": "cominciare",
+   "en": "to begin, start; regular (-ciare: tu cominci), avere",
+   "ex": "Il corso comincia lunedì."
+  },
+  {
+   "it": "cercare",
+   "en": "to look for; regular (-care: tu cerchi), avere",
+   "ex": "Cerco casa a Bologna."
+  },
+  {
+   "it": "mangiare",
+   "en": "to eat; regular (-giare: tu mangi), avere",
+   "ex": "Mangio poco a pranzo."
+  },
+  {
+   "it": "giocare",
+   "en": "to play (games, sport); regular (-care: tu giochi), avere",
+   "ex": "I bambini giocano a calcio."
+  },
+  {
+   "it": "truccarsi",
+   "en": "to put on make-up; reflexive (ti trucchi), takes essere",
+   "ex": "Si trucca in macchina."
+  },
+  {
+   "it": "asciugarsi",
+   "en": "to dry oneself; reflexive (ti asciughi), takes essere",
+   "ex": "Mi asciugo i capelli."
+  },
+  {
+   "it": "passare l'aspirapolvere",
+   "en": "to vacuum; regular, avere",
+   "ex": "Passo l'aspirapolvere in salotto."
+  },
+  {
+   "it": "fare il bucato",
+   "en": "to do the laundry; fare is irregular (faccio), avere",
+   "ex": "Faccio il bucato il lunedì."
+  },
+  {
+   "it": "la lavatrice",
+   "en": "washing machine",
+   "ex": "La lavatrice è rotta."
+  },
+  {
+   "it": "la lavastoviglie (pl. unchanged)",
+   "en": "dishwasher",
+   "ex": "Metti i piatti nella lavastoviglie."
+  },
+  {
+   "it": "il frigorifero (il frigo)",
+   "en": "fridge",
+   "ex": "Il latte è nel frigo."
+  },
+  {
+   "it": "il divano",
+   "en": "sofa",
+   "ex": "Dormo sul divano."
+  },
+  {
+   "it": "la chiave (pl. le chiavi)",
+   "en": "key",
+   "ex": "Dove sono le chiavi?"
+  },
+  {
+   "it": "la bolletta",
+   "en": "(utility) bill",
+   "ex": "la bolletta del gas"
+  },
+  {
+   "it": "l'orario (m.)",
+   "en": "opening hours; timetable",
+   "ex": "l'orario di apertura"
+  },
+  {
+   "it": "la pausa pranzo",
+   "en": "lunch break",
+   "ex": "La pausa pranzo dura un'ora."
+  },
+  {
+   "it": "il fine settimana (invariable)",
+   "en": "weekend",
+   "ex": "Cosa fai il fine settimana?"
+  },
+  {
+   "it": "puntuale",
+   "en": "punctual, on time (m./f.; pl. puntuali)",
+   "ex": "Il treno è puntuale."
+  },
+  {
+   "it": "dalle … alle …",
+   "en": "from … to … (clock times)",
+   "ex": "Lavoro dalle nove alle cinque."
+  },
+  {
+   "it": "A che ora…?",
+   "en": "At what time…?",
+   "ex": "A che ora apre la farmacia?"
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Mentre ti trucchi, io cerco le chiavi della macchina: usciamo tra cinque minuti!",
+   "en": "While you put on your make-up, I'm looking for the car keys: we're leaving in five minutes!",
+   "note": "ti trucchi adds h to keep the hard \"k\" sound before i; io cerco needs no h before o."
+  },
+  {
+   "it": "Cominci a lavorare alle otto e mangi in ufficio durante la pausa pranzo?",
+   "en": "Do you start work at eight and eat in the office during your lunch break?",
+   "note": "cominci, mangi – only one i (never \"comincii\"). cominciare a + infinitive."
+  },
+  {
+   "it": "Il fine settimana facciamo il bucato e passiamo l'aspirapolvere, mentre i bambini giocano in giardino.",
+   "en": "At the weekend we do the laundry and vacuum, while the kids play in the garden.",
+   "note": "loro giocano (no h before o), but tu giochi, noi giochiamo. \"Il fine settimana\" with the article = every weekend."
+  },
+  {
+   "it": "Se cerchi la bolletta della luce, è sul frigorifero, vicino alle chiavi.",
+   "en": "If you're looking for the electricity bill, it's on the fridge, next to the keys.",
+   "note": "cerchi (h again). sul = su + il; vicino a + le = vicino alle."
+  },
+  {
+   "it": "– Scusi, qual è l'orario dell'anagrafe? – Dalle nove alle dodici, ma il giovedì apriamo anche il pomeriggio.",
+   "en": "– Excuse me, what are the registry office's opening hours? – From nine to twelve, but on Thursdays we also open in the afternoon.",
+   "note": "clock times are feminine plural (le ore): dalle = da + le, alle = a + le. aprire is a regular -ire verb: apriamo."
+  }
+ ],
+ "schema": "Verbs in -care / -gare add h before endings starting with i, so the sound stays hard (cerchi, paghiamo). Verbs in -ciare / -giare already have an i in the stem, so they never double it (cominci, mangiamo). Same rule for reflexives: ti trucchi, ti asciughi.\n            cercare mangiare\n  io cerco mangio\n  tu cerchi mangi\n  lui/lei cerca mangia\n  noi cerchiamo mangiamo\n  voi cercate mangiate\n  loro cercano mangiano",
+ "review": [
+  {
+   "it": "la sveglia",
+   "en": "alarm clock"
+  },
+  {
+   "it": "ogni tanto",
+   "en": "every now and then"
+  },
+  {
+   "it": "il condominio",
+   "en": "apartment building; the residents"
+  },
+  {
+   "it": "sparecchiare la tavola",
+   "en": "to clear the table"
+  },
+  {
+   "it": "avere bisogno di",
+   "en": "to need"
+  }
+ ],
+ "date": "2026-10-30"
+}

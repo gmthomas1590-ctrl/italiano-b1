@@ -1,0 +1,159 @@
+{
+ "day": 9,
+ "week": 2,
+ "theme": "la casa, la routine quotidiana, l'ora",
+ "grammar": "present tense of regular verbs and reflexive verbs. Today: -ire verbs with -isc- (finire, pulire, preferire).",
+ "words": [
+  {
+   "it": "l'appartamento (m.)",
+   "en": "flat, apartment",
+   "ex": "un appartamento in centro"
+  },
+  {
+   "it": "l'affitto (m.)",
+   "en": "rent",
+   "ex": "L'affitto è di 700 euro al mese."
+  },
+  {
+   "it": "il padrone / la padrona di casa",
+   "en": "landlord / landlady",
+   "ex": "Il padrone di casa abita sopra."
+  },
+  {
+   "it": "il condominio",
+   "en": "apartment building; the residents",
+   "ex": "le spese di condominio"
+  },
+  {
+   "it": "il piano",
+   "en": "floor, storey",
+   "ex": "Abito al terzo piano."
+  },
+  {
+   "it": "l'ascensore (m.)",
+   "en": "lift, elevator",
+   "ex": "L'ascensore non funziona."
+  },
+  {
+   "it": "il balcone",
+   "en": "balcony",
+   "ex": "Stendo i panni sul balcone."
+  },
+  {
+   "it": "il riscaldamento",
+   "en": "heating",
+   "ex": "Il riscaldamento è acceso."
+  },
+  {
+   "it": "le faccende di casa",
+   "en": "housework, chores",
+   "ex": "Odio le faccende di casa!"
+  },
+  {
+   "it": "pulire",
+   "en": "to clean; -isc- (pulisco), avere",
+   "ex": "Pulisco il bagno il sabato."
+  },
+  {
+   "it": "finire",
+   "en": "to finish; -isc- (finisco), avere (essere when something ends: è finito)",
+   "ex": "Finisco alle cinque."
+  },
+  {
+   "it": "preferire",
+   "en": "to prefer; -isc- (preferisco), avere",
+   "ex": "Preferisco il tè."
+  },
+  {
+   "it": "stirare",
+   "en": "to iron; regular, avere",
+   "ex": "Non stiro mai."
+  },
+  {
+   "it": "apparecchiare / sparecchiare la tavola",
+   "en": "to set / clear the table; regular, avere",
+   "ex": "Apparecchi tu?"
+  },
+  {
+   "it": "fare la doccia",
+   "en": "to have a shower; fare is irregular (faccio), avere",
+   "ex": "Faccio la doccia la sera."
+  },
+  {
+   "it": "riposarsi",
+   "en": "to rest; reflexive, takes essere",
+   "ex": "Il pomeriggio mi riposo."
+  },
+  {
+   "it": "prepararsi",
+   "en": "to get ready; reflexive, takes essere",
+   "ex": "Mi preparo per uscire."
+  },
+  {
+   "it": "spegnere",
+   "en": "to switch off; irregular (spengo, spento), avere",
+   "ex": "Spegni la luce!"
+  },
+  {
+   "it": "in anticipo / in ritardo",
+   "en": "early / late (vs. a set time)",
+   "ex": "Sono in ritardo!"
+  },
+  {
+   "it": "ogni tanto",
+   "en": "every now and then",
+   "ex": "Ogni tanto cucino io."
+  }
+ ],
+ "sentences": [
+  {
+   "it": "La sera preferisco fare la doccia, così la mattina mi preparo in dieci minuti.",
+   "en": "In the evening I prefer to shower, so in the morning I get ready in ten minutes.",
+   "note": "preferire -> preferisco (io). \"La sera / la mattina\" with the article = in the evening / morning, as a habit."
+  },
+  {
+   "it": "Quando finisci di lavorare, ti riposi un po' sul balcone?",
+   "en": "When you finish work, do you rest a bit on the balcony?",
+   "note": "finisci (tu) + di + infinitive; reflexive tu form: ti riposi. sul = su + il."
+  },
+  {
+   "it": "Il sabato puliamo l'appartamento e ogni tanto mio marito stira le camicie.",
+   "en": "On Saturdays we clean the flat and every now and then my husband irons the shirts.",
+   "note": "noi form has NO -isc-: puliamo. stirare is a regular -are verb: stira."
+  },
+  {
+   "it": "I ragazzi apparecchiano la tavola e dopo cena io sparecchio e spengo la luce in cucina.",
+   "en": "The kids set the table and after dinner I clear it and switch off the light in the kitchen.",
+   "note": "loro: apparecchiano; io: sparecchio (one i, the stem already ends in -i). spegnere is irregular in io: spengo."
+  },
+  {
+   "it": "Il padrone di casa non è contento: paghiamo sempre l'affitto in ritardo.",
+   "en": "The landlord isn't happy: we always pay the rent late.",
+   "note": "pagare adds h before -i to keep the hard g: paghi, paghiamo. \"In ritardo\" = late for a deadline; \"tardi\" = late in the day."
+  }
+ ],
+ "schema": "-ire verbs come in two groups. Most common ones (finire, pulire, preferire, capire, spedire) add -isc- in io, tu, lui/lei and loro, but not in noi and voi. Dormire-type verbs (dormire, partire, aprire, sentire) don't. Say -isco/-iscono with a hard \"sk\", -isci/-isce with a soft \"sh\".\n            dormire finire\n  io dormo finisco\n  tu dormi finisci\n  lui/lei dorme finisce\n  noi dormiamo finiamo\n  voi dormite finite\n  loro dormono finiscono",
+ "review": [
+  {
+   "it": "addormentarsi",
+   "en": "to fall asleep (reflexive, takes essere)"
+  },
+  {
+   "it": "il soggiorno",
+   "en": "living room"
+  },
+  {
+   "it": "di solito",
+   "en": "usually"
+  },
+  {
+   "it": "essere in gamba",
+   "en": "to be capable, sharp"
+  },
+  {
+   "it": "il domicilio",
+   "en": "the address where you actually live"
+  }
+ ],
+ "date": "2026-10-29"
+}

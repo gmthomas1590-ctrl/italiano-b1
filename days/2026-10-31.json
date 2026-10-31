@@ -1,0 +1,159 @@
+{
+ "day": 11,
+ "week": 2,
+ "theme": "la casa, la routine quotidiana, l'ora",
+ "grammar": "present tense of regular verbs and reflexive verbs. Today: reflexive verbs in the infinitive (alzarmi, rilassarti) and with clothes and body parts (mi metto la giacca).",
+ "words": [
+  {
+   "it": "pettinarsi",
+   "en": "to comb one's hair; reflexive, takes essere",
+   "ex": "Mi pettino davanti allo specchio."
+  },
+  {
+   "it": "radersi",
+   "en": "to shave; reflexive, takes essere (irregular past participle: raso)",
+   "ex": "Mi rado ogni mattina."
+  },
+  {
+   "it": "mettersi",
+   "en": "to put on (clothes); reflexive, takes essere (irregular p.p.: messo)",
+   "ex": "Mi metto il cappotto."
+  },
+  {
+   "it": "togliersi",
+   "en": "to take off (clothes); irregular (mi tolgo, loro si tolgono), takes essere",
+   "ex": "Mi tolgo le scarpe."
+  },
+  {
+   "it": "rilassarsi",
+   "en": "to relax; reflexive, takes essere",
+   "ex": "La sera mi rilasso."
+  },
+  {
+   "it": "sbrigarsi",
+   "en": "to hurry up; reflexive (-gare: ti sbrighi), takes essere",
+   "ex": "Mi sbrigo, arrivo!"
+  },
+  {
+   "it": "divertirsi",
+   "en": "to have fun, enjoy oneself; reflexive (-ire), takes essere",
+   "ex": "Ci divertiamo molto."
+  },
+  {
+   "it": "annoiarsi",
+   "en": "to get bored; reflexive (tu ti annoi – one i), takes essere",
+   "ex": "Non mi annoio mai."
+  },
+  {
+   "it": "andare a letto",
+   "en": "to go to bed; andare is irregular (vado), takes essere",
+   "ex": "Vado a letto alle undici."
+  },
+  {
+   "it": "lo specchio",
+   "en": "mirror",
+   "ex": "lo specchio del bagno"
+  },
+  {
+   "it": "lo spazzolino (da denti)",
+   "en": "toothbrush",
+   "ex": "Dov'è il mio spazzolino?"
+  },
+  {
+   "it": "l'asciugamano (m.)",
+   "en": "towel",
+   "ex": "un asciugamano pulito"
+  },
+  {
+   "it": "il pigiama (pl. i pigiami)",
+   "en": "pyjamas (singular in Italian)",
+   "ex": "Mi metto il pigiama."
+  },
+  {
+   "it": "la stanza",
+   "en": "room",
+   "ex": "una stanza luminosa"
+  },
+  {
+   "it": "il corridoio",
+   "en": "hallway, corridor",
+   "ex": "Le scarpe sono nel corridoio."
+  },
+  {
+   "it": "il trasloco (pl. i traslochi)",
+   "en": "house move",
+   "ex": "Sabato facciamo il trasloco."
+  },
+  {
+   "it": "il quartiere",
+   "en": "neighbourhood, area",
+   "ex": "un quartiere tranquillo"
+  },
+  {
+   "it": "stanco / stanca",
+   "en": "tired (pl. stanchi / stanche)",
+   "ex": "Sono stanca morta."
+  },
+  {
+   "it": "verso le …",
+   "en": "around … (clock time)",
+   "ex": "Arrivo verso le sei."
+  },
+  {
+   "it": "in punto",
+   "en": "sharp, on the dot",
+   "ex": "alle otto in punto"
+  }
+ ],
+ "sentences": [
+  {
+   "it": "La mattina mi rado, mi pettino e mi metto la giacca: esco di casa alle otto in punto.",
+   "en": "In the morning I shave, comb my hair and put on my jacket: I leave the house at eight o'clock sharp.",
+   "note": "with clothes and body parts Italian uses the reflexive + the article, not \"my\": mi metto la giacca (not \"metto la mia giacca\")."
+  },
+  {
+   "it": "Dopo cena preferisco rilassarmi in soggiorno e vado a letto verso le undici.",
+   "en": "After dinner I prefer to relax in the living room and I go to bed around eleven.",
+   "note": "after another verb the reflexive stays in the infinitive, with the pronoun attached and matching the subject: (io) preferisco rilassarmi. \"andare a letto\": no article."
+  },
+  {
+   "it": "Quando torno a casa stanco, mi tolgo le scarpe nel corridoio e mi metto subito il pigiama.",
+   "en": "When I get home tired, I take my shoes off in the hallway and put my pyjamas on straight away.",
+   "note": "togliersi is irregular in io: mi tolgo. stanco agrees with the subject (a woman says stanca). nel = in + il."
+  },
+  {
+   "it": "I miei figli si divertono molto nel nuovo quartiere, ma a casa si annoiano subito.",
+   "en": "My children have a lot of fun in the new neighbourhood, but at home they get bored straight away.",
+   "note": "loro: si + -ono (divertirsi, -ire) and si + -ano (annoiarsi, -are). Same pronoun si for lui/lei and loro."
+  },
+  {
+   "it": "Il giorno del trasloco ci sbrighiamo: la ditta arriva alle sette in punto e cominciamo a svuotare le stanze.",
+   "en": "On moving day we hurry: the removal company arrives at seven sharp and we start emptying the rooms.",
+   "note": "sbrigarsi keeps the hard g with h: ci sbrighiamo. cominciare a + infinitive. Clock times: alle = a + le (ore)."
+  }
+ ],
+ "schema": "When a reflexive verb follows another verb (preferire, cominciare a, andare a), keep it in the infinitive: drop the final -e and attach the pronoun that matches the subject. With clothes and body parts, use the reflexive + the article instead of a possessive.\n  io mi rilasso preferisco rilassarmi\n  tu ti rilassi preferisci rilassarti\n  lui/lei si rilassa preferisce rilassarsi\n  noi ci rilassiamo preferiamo rilassarci\n  voi vi rilassate preferite rilassarvi\n  loro si rilassano preferiscono rilassarsi\nBody / clothes: mi lavo le mani (I wash my hands), ti metti il cappotto (you put on your coat).",
+ "review": [
+  {
+   "it": "la bolletta",
+   "en": "(utility) bill"
+  },
+  {
+   "it": "stirare",
+   "en": "to iron"
+  },
+  {
+   "it": "il riscaldamento",
+   "en": "heating"
+  },
+  {
+   "it": "puntuale",
+   "en": "punctual, on time"
+  },
+  {
+   "it": "il recapito",
+   "en": "contact details (phone, address)"
+  }
+ ],
+ "date": "2026-10-31"
+}

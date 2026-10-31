@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Italiano B1</title>
+<meta name="theme-color" content="#0f6b4f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Italiano B1">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-512.png">
+<link rel="icon" href="icon-512.png">
+<style>
+:root{
+  --bg:#f6f4ef; --card:#ffffff; --ink:#1d1f1c; --muted:#6b6e66; --line:#e3e0d8;
+  --accent:#0f6b4f; --accent-soft:#e3f0ea; --red:#b8402f; --red-soft:#f8e4e0;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#121412; --card:#1c1f1c; --ink:#ecebe6; --muted:#9a9d94; --line:#2c302c;
+    --accent:#4fbf93; --accent-soft:#1d3329; --red:#e57c6b; --red-soft:#3a2420;}
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);
+  padding:calc(env(safe-area-inset-top) + 10px) 16px 8px;border-bottom:1px solid var(--line)}
+header h1{margin:0;font-size:20px;letter-spacing:-.01em}
+header h1 span{color:var(--accent)}
+header .sub{color:var(--muted);font-size:13px}
+main{padding:14px 16px calc(env(safe-area-inset-bottom) + 84px);max-width:680px;margin:0 auto}
+nav{position:fixed;bottom:0;left:0;right:0;z-index:5;display:flex;background:var(--card);
+  border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
+nav button{flex:1;border:0;background:none;color:var(--muted);padding:10px 0 8px;font:inherit;font-size:12px}
+nav button b{display:block;font-size:20px;line-height:1.1;font-weight:400}
+nav button.on{color:var(--accent);font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-bottom:12px}
+.muted{color:var(--muted)} .small{font-size:13px}
+.tag{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:99px;
+  padding:2px 9px;font-size:12px;font-weight:600}
+h2{font-size:18px;margin:4px 0 6px} h3{font-size:15px;margin:18px 0 8px;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.06em}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin:10px 0 12px;scrollbar-width:none}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;
+  padding:7px 13px;font:inherit;font-size:14px;white-space:nowrap}
+.tabs button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.word{padding:10px 0;border-bottom:1px solid var(--line)} .word:last-child{border:0}
+.word .it{font-weight:650} .word .en{color:var(--ink)} .word .ex{color:var(--muted);font-style:italic;font-size:14px}
+.num{color:var(--muted);font-size:12px;margin-right:6px}
+.sent{padding:12px 0;border-bottom:1px solid var(--line)} .sent:last-child{border:0}
+.sent .it{font-weight:650} .sent .note{font-size:14px;background:var(--accent-soft);border-radius:8px;padding:6px 9px;margin-top:6px}
+pre{white-space:pre-wrap;font:14px/1.5 ui-monospace,Menlo,monospace;margin:0}
+.hidden-en{color:transparent;background:var(--line);border-radius:6px;cursor:pointer}
+.row{display:flex;gap:10px;align-items:center;justify-content:space-between}
+.daylink{display:block;width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer}
+.btn{display:block;width:100%;border:0;border-radius:12px;padding:13px;font:inherit;font-weight:600;
+  background:var(--accent);color:#fff;margin-top:8px}
+.btn.ghost{background:var(--card);color:var(--accent);border:1px solid var(--line)}
+.seg{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:6px 0 10px}
+.seg button{flex:1;border:0;background:var(--card);color:var(--ink);padding:9px 4px;font:inherit;font-size:14px}
+.seg button.on{background:var(--accent);color:#fff}
+.q{font-size:22px;font-weight:650;margin:6px 0 2px}
+.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:12px;padding:12px;margin:8px 0;font:inherit}
+.opt.right{background:var(--accent-soft);border-color:var(--accent)}
+.opt.wrong{background:var(--red-soft);border-color:var(--red)}
+.bar{height:6px;background:var(--line);border-radius:99px;overflow:hidden;margin:4px 0 10px}
+.bar i{display:block;height:100%;background:var(--accent)}
+input[type=search]{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink);font:inherit;margin-bottom:12px}
+.big{font-size:40px;font-weight:700;color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Italiano <span>B1</span></h1>
+  <div class="sub" id="sub">Caricamento…</div>
+</header>
+<main id="app"></main>
+<nav>
+  <button data-v="today"><b>☀︎</b>Oggi</button>
+  <button data-v="days"><b>☰</b>Giorni</button>
+  <button data-v="quiz"><b>✓</b>Quiz</button>
+  <button data-v="search"><b>⌕</b>Cerca</button>
+</nav>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = {
+  get(k, d){ try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+let INDEX = [], CACHE = {}, view = 'today', current = null, tab = 'words';
+
+async function getJSON(p){
+  const r = await fetch(p, {cache:'no-cache'});
+  if (!r.ok) throw new Error(p + ' ' + r.status);
+  return r.json();
+}
+async function loadDay(date){
+  if (!CACHE[date]) CACHE[date] = await getJSON('days/' + date + '.json');
+  return CACHE[date];
+}
+async function loadAll(){
+  await Promise.all(INDEX.map(d => loadDay(d.date)));
+  return INDEX.map(d => CACHE[d.date]);
+}
+function fmtDate(iso){
+  return new Date(iso + 'T12:00:00').toLocaleDateString('it-IT', {weekday:'short', day:'numeric', month:'short'});
+}
+
+function go(v){
+  view = v;
+  document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.v === v || (v === 'day' && b.dataset.v === 'days')));
+  window.scrollTo(0, 0);
+  ({today: showToday, days: showDays, quiz: showQuizSetup, search: showSearch, day: () => showDay(current)})[v]();
+}
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => go(b.dataset.v));
+
+async function showToday(){
+  if (!INDEX.length){ $('#app').innerHTML = '<div class="card">Nessuna lezione ancora.</div>'; return; }
+  current = INDEX[INDEX.length - 1].date;
+  showDay(current, true);
+}
+
+async function showDay(date, isToday){
+  const d = await loadDay(date);
+  const tabs = [['words','Parole'],['sentences','Frasi'],['schema','Schema'],['review','Ripasso']];
+  let body = '';
+  if (tab === 'words') body = d.words.map((w,i) =>
+    `<div class="word"><div><span class="num">${i+1}</span><span class="it">${esc(w.it)}</span></div>
+     <div class="en">${esc(w.en)}</div>${w.ex ? `<div class="ex">${esc(w.ex)}</div>` : ''}</div>`).join('');
+  if (tab === 'sentences') body = d.sentences.map((s,i) =>
+    `<div class="sent"><div class="it">${i+1}. ${esc(s.it)}</div>
+     <div class="en hidden-en" onclick="this.classList.remove('hidden-en')">${esc(s.en)}</div>
+     ${s.note ? `<div class="note"><b>Nota:</b> ${esc(s.note)}</div>` : ''}</div>`).join('') +
+     '<p class="small muted">Tocca la riga grigia per vedere la traduzione.</p>';
+  if (tab === 'schema') body = `<pre>${esc(d.schema)}</pre>`;
+  if (tab === 'review') body = d.review.map((r,i) =>
+    `<div class="word"><div class="it">${i+1}. ${esc(r.it)}</div>
+     <div class="en hidden-en" onclick="this.classList.remove('hidden-en')">${esc(r.en) || '—'}</div></div>`).join('') +
+     '<p class="small muted">Tocca per vedere la risposta.</p>';
+  $('#app').innerHTML = `
+    <div class="card">
+      <div class="row"><span class="tag">Giorno ${d.day} · Settimana ${d.week}</span><span class="small muted">${fmtDate(d.date)}</span></div>
+      <h2>${esc(d.theme)}</h2>
+      <div class="small muted">${esc(d.grammar)}</div>
+    </div>
+    <div class="tabs">${tabs.map(([k,l]) => `<button class="${k===tab?'on':''}" data-t="${k}">${l}</button>`).join('')}</div>
+    <div class="card">${body}</div>
+    <button class="btn" id="qday">Quiz su questo giorno</button>
+    ${isToday ? '' : '<button class="btn ghost" id="back">← Tutti i giorni</button>'}`;
+  document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => { tab = b.dataset.t; showDay(date, isToday); });
+  $('#qday').onclick = () => startQuiz({scope:'day', date, dir: store.get('dir','it')});
+  if ($('#back')) $('#back').onclick = () => go('days');
+}
+
+function showDays(){
+  const byWeek = {};
+  INDEX.slice().reverse().forEach(d => (byWeek[d.week] ??= []).push(d));
+  const seen = store.get('stats', {});
+  $('#app').innerHTML = Object.keys(byWeek).sort((a,b) => b-a).map(w =>
+    `<h3>Settimana ${w}</h3>` + byWeek[w].map(d => {
+      const st = seen[d.date];
+      return `<button class="card daylink" data-d="${d.date}">
+        <div class="row"><b>Giorno ${d.day}</b><span class="small muted">${fmtDate(d.date)}</span></div>
+        <div class="small muted">${esc(d.theme)}${st ? ` · quiz: ${st.best}%` : ''}</div></button>`;
+    }).join('')).join('');
+  document.querySelectorAll('.daylink').forEach(b => b.onclick = () => { current = b.dataset.d; tab = 'words'; go('day'); });
+}
+
+/* ---------- Quiz ---------- */
+let Q = null;
+function showQuizSetup(){
+  const scope = store.get('scope','week'), dir = store.get('dir','it'), n = store.get('n',10);
+  const misses = store.get('misses', {});
+  const nm = Object.keys(misses).length;
+  $('#app').innerHTML = `
+    <div class="card">
+      <h2>Quiz</h2>
+      <div class="small muted">Parole</div>
+      <div class="seg" id="scope">${[['day','Oggi'],['week','Settimana'],['all','Tutto']].map(([k,l]) => `<button data-k="${k}" class="${k===scope?'on':''}">${l}</button>`).join('')}</div>
+      <div class="small muted">Direzione</div>
+      <div class="seg" id="dir">${[['it','IT → EN'],['en','EN → IT'],['mix','Misto']].map(([k,l]) => `<button data-k="${k}" class="${k===dir?'on':''}">${l}</button>`).join('')}</div>
+      <div class="small muted">Domande</div>
+      <div class="seg" id="n">${[5,10,20].map(k => `<button data-k="${k}" class="${k==n?'on':''}">${k}</button>`).join('')}</div>
+      <button class="btn" id="go">Inizia</button>
+      ${nm ? `<button class="btn ghost" id="miss">Ripassa gli errori (${nm})</button>` : ''}
+    </div>`;
+  ['scope','dir','n'].forEach(id => document.querySelectorAll('#' + id + ' button').forEach(b => b.onclick = () => {
+    store.set(id, id === 'n' ? +b.dataset.k : b.dataset.k); showQuizSetup();
+  }));
+  $('#go').onclick = () => startQuiz({scope: store.get('scope','week'), dir: store.get('dir','it'), n: store.get('n',10)});
+  if ($('#miss')) $('#miss').onclick = () => startQuiz({scope:'misses', dir: store.get('dir','it'), n: 20});
+}
+
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]] = [a[j],a[i]]; } return a; };
+const key = w => w.it + '|' + w.en;
+// Strip grammar notes so quiz options don't give the answer away.
+const cleanEn = s => s.split(';')[0].replace(/\s*\([^)]*\)/g, '').trim();
+const cleanIt = s => s.replace(/\s*\((m\.|f\.|m\.\/f\.|[^)]*pl\.[^)]*|[^)]*invariable[^)]*)\)/g, '').trim();
+
+async function startQuiz({scope, date, dir, n = 10}){
+  const all = await loadAll();
+  const pool = all.flatMap(d => d.words.map(w => ({...w, date: d.date, week: d.week})));
+  const latest = INDEX[INDEX.length - 1];
+  let items;
+  if (scope === 'day') items = pool.filter(w => w.date === (date || latest.date));
+  else if (scope === 'week') items = pool.filter(w => w.week === latest.week);
+  else if (scope === 'misses'){ const m = store.get('misses', {}); items = pool.filter(w => m[key(w)]); }
+  else items = pool;
+  if (!items.length){ $('#app').innerHTML = '<div class="card">Niente da ripassare.</div>'; return; }
+  const qs = shuffle(items).slice(0, Math.min(n, items.length)).map(w => {
+    const d = dir === 'mix' ? (Math.random() < .5 ? 'it' : 'en') : dir;
+    const side = (o, s) => s === 'it' ? cleanIt(o.it) : cleanEn(o.en);
+    const prompt = side(w, d), answer = side(w, d === 'it' ? 'en' : 'it');
+    const others = [...new Set(shuffle(pool.filter(o => key(o) !== key(w)))
+      .map(o => side(o, d === 'it' ? 'en' : 'it')))].filter(o => o !== answer).slice(0, 3);
+    return {w, prompt, answer, ex: w.ex + ' — ' + w.it + ': ' + w.en, opts: shuffle([answer, ...others])};
+  });
+  Q = {qs, i: 0, score: 0, scope, date: scope === 'day' ? (date || latest.date) : null};
+  showQ();
+}
+
+function showQ(){
+  const q = Q.qs[Q.i];
+  $('#app').innerHTML = `
+    <div class="card">
+      <div class="row small muted"><span>${Q.i + 1} / ${Q.qs.length}</span><span>Punti: ${Q.score}</span></div>
+      <div class="bar"><i style="width:${Q.i / Q.qs.length * 100}%"></i></div>
+      <div class="q">${esc(q.prompt)}</div>
+      <div id="ex" class="small muted" style="min-height:20px"></div>
+      ${q.opts.map((o,i) => `<button class="opt" data-i="${i}">${esc(o)}</button>`).join('')}
+      <button class="btn" id="next" style="display:none">Avanti</button>
+    </div>`;
+  document.querySelectorAll('.opt').forEach(b => b.onclick = () => {
+    if (Q.answered) return; Q.answered = true;
+    const pick = q.opts[+b.dataset.i], ok = pick === q.answer;
+    const misses = store.get('misses', {});
+    if (ok){ Q.score++; b.classList.add('right'); delete misses[key(q.w)]; }
+    else {
+      b.classList.add('wrong'); misses[key(q.w)] = 1;
+      document.querySelectorAll('.opt').forEach(x => { if (q.opts[+x.dataset.i] === q.answer) x.classList.add('right'); });
+    }
+    store.set('misses', misses);
+    if (q.ex) $('#ex').textContent = q.ex;
+    $('#next').style.display = 'block';
+    if (navigator.vibrate && !ok) navigator.vibrate(60);
+  });
+  $('#next').onclick = () => { Q.answered = false; Q.i++; Q.i < Q.qs.length ? showQ() : endQuiz(); };
+}
+
+function endQuiz(){
+  const pct = Math.round(Q.score / Q.qs.length * 100);
+  if (Q.date){
+    const st = store.get('stats', {});
+    st[Q.date] = {best: Math.max(pct, st[Q.date]?.best || 0)};
+    store.set('stats', st);
+  }
+  const nm = Object.keys(store.get('misses', {})).length;
+  $('#app').innerHTML = `
+    <div class="card" style="text-align:center">
+      <div class="big">${pct}%</div>
+      <div>${Q.score} su ${Q.qs.length} — ${pct >= 90 ? 'Bravissimo!' : pct >= 70 ? 'Bene!' : 'Continua così.'}</div>
+      ${nm ? `<p class="small muted">${nm} parole da ripassare negli errori.</p>` : ''}
+      <button class="btn" id="again">Un altro quiz</button>
+      <button class="btn ghost" id="home">Torna a oggi</button>
+    </div>`;
+  $('#again').onclick = () => go('quiz');
+  $('#home').onclick = () => { tab = 'words'; go('today'); };
+}
+
+/* ---------- Search ---------- */
+async function showSearch(){
+  $('#app').innerHTML = `<input type="search" id="s" placeholder="Cerca in italiano o inglese…" autocomplete="off"><div id="res"></div>`;
+  const all = await loadAll();
+  const pool = all.flatMap(d => d.words.map(w => ({...w, day: d.day})));
+  const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const run = () => {
+    const t = norm($('#s').value.trim());
+    const hits = t ? pool.filter(w => norm(w.it + ' ' + w.en).includes(t)) : [];
+    $('#res').innerHTML = !t ? `<p class="small muted">${pool.length} parole in ${all.length} giorni.</p>` :
+      hits.length ? '<div class="card">' + hits.slice(0, 60).map(w =>
+        `<div class="word"><div class="row"><span class="it">${esc(w.it)}</span><span class="small muted">G${w.day}</span></div>
+         <div class="en">${esc(w.en)}</div>${w.ex ? `<div class="ex">${esc(w.ex)}</div>` : ''}</div>`).join('') + '</div>'
+      : '<p class="muted">Nessun risultato.</p>';
+  };
+  $('#s').oninput = run; run();
+}
+
+/* ---------- Boot ---------- */
+(async () => {
+  try {
+    INDEX = await getJSON('days/index.json');
+    const last = INDEX[INDEX.length - 1];
+    $('#sub').textContent = last ? `Giorno ${last.day} di 91 · ${INDEX.length * 20} parole` : '';
+  } catch (e) {
+    $('#sub').textContent = 'Offline';
+    $('#app').innerHTML = '<div class="card">Impossibile caricare le lezioni. Riprova con la connessione.</div>';
+    return;
+  }
+  go('today');
+})();
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+</script>
+</body>
+</html>

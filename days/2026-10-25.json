@@ -1,0 +1,159 @@
+{
+ "day": 5,
+ "week": 1,
+ "theme": "dati personali, famiglia, descrivere le persone",
+ "grammar": "essere / avere, articles, noun and adjective agreement.",
+ "words": [
+  {
+   "it": "il fratellastro / la sorellastra",
+   "en": "stepbrother, half-brother / stepsister, half-sister",
+   "ex": "Ho un fratellastro più giovane."
+  },
+  {
+   "it": "il padrino / la madrina",
+   "en": "godfather / godmother",
+   "ex": "La mia madrina vive a Bari."
+  },
+  {
+   "it": "il neonato / la neonata",
+   "en": "newborn baby",
+   "ex": "un neonato di due settimane"
+  },
+  {
+   "it": "l'adolescente (m./f.)",
+   "en": "teenager",
+   "ex": "Mio figlio è un adolescente."
+  },
+  {
+   "it": "il compleanno",
+   "en": "birthday",
+   "ex": "Domani è il mio compleanno."
+  },
+  {
+   "it": "l'aspetto (m.)",
+   "en": "appearance, look",
+   "ex": "Ha un bell'aspetto."
+  },
+  {
+   "it": "il peso",
+   "en": "weight",
+   "ex": "Peso: 80 chili."
+  },
+  {
+   "it": "la cicatrice",
+   "en": "scar",
+   "ex": "una cicatrice sul braccio"
+  },
+  {
+   "it": "il tatuaggio",
+   "en": "tattoo",
+   "ex": "Ha un tatuaggio sulla mano."
+  },
+  {
+   "it": "bello / bella",
+   "en": "beautiful, handsome (before a noun: bel, bell', bei, begli)",
+   "ex": "un bel ragazzo"
+  },
+  {
+   "it": "brutto / brutta",
+   "en": "ugly; bad",
+   "ex": "una brutta giornata"
+  },
+  {
+   "it": "muscoloso / muscolosa",
+   "en": "muscular",
+   "ex": "un uomo muscoloso"
+  },
+  {
+   "it": "intelligente",
+   "en": "intelligent (one form m./f.; pl. intelligenti)",
+   "ex": "una bambina intelligente"
+  },
+  {
+   "it": "curioso / curiosa",
+   "en": "curious",
+   "ex": "I bambini sono curiosi."
+  },
+  {
+   "it": "nervoso / nervosa",
+   "en": "nervous; irritable",
+   "ex": "Oggi sono un po' nervoso."
+  },
+  {
+   "it": "egoista",
+   "en": "selfish (one form m./f. singular; pl. egoisti / egoiste)",
+   "ex": "Non essere egoista!"
+  },
+  {
+   "it": "diventare",
+   "en": "to become; takes essere (è diventato)",
+   "ex": "È diventato padre."
+  },
+  {
+   "it": "dimostrare",
+   "en": "to look (a certain age); avere",
+   "ex": "Dimostra quarant'anni."
+  },
+  {
+   "it": "avere fretta",
+   "en": "to be in a hurry",
+   "ex": "Scusi, ho fretta."
+  },
+  {
+   "it": "Tanti auguri!",
+   "en": "Happy birthday! / Best wishes!",
+   "ex": "Tanti auguri, nonna!"
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Il mio fratellastro ha un bel tatuaggio sul braccio e una piccola cicatrice sul viso.",
+   "en": "My stepbrother has a nice tattoo on his arm and a small scar on his face.",
+   "note": "bel before a consonant, just like il; sul = su + il. Step-relatives keep the article: il mio fratellastro."
+  },
+  {
+   "it": "La mia madrina ha settant'anni, ma ne dimostra sessanta: ha un bell'aspetto.",
+   "en": "My godmother is seventy, but she looks sixty: she looks great.",
+   "note": "age with avere; bell' before a vowel, like l' (l'aspetto -> un bell'aspetto). \"ne\" = \"of them\" (years) – just learn it as a block for now."
+  },
+  {
+   "it": "Mio figlio è diventato un adolescente intelligente e curioso, ma a volte è un po' egoista.",
+   "en": "My son has become a clever and curious teenager, but sometimes he's a bit selfish.",
+   "note": "diventare takes essere -> è diventato (diventata for a daughter); egoista ends in -a even for a male."
+  },
+  {
+   "it": "Oggi è il compleanno di mia sorella: tanti auguri! Lei ha sempre fretta, ma stasera è a cena con noi.",
+   "en": "Today is my sister's birthday: happy birthday! She's always in a hurry, but tonight she's having dinner with us.",
+   "note": "English \"my sister's birthday\" = il compleanno di mia sorella; \"be in a hurry\" = avere fretta, not essere."
+  },
+  {
+   "it": "Lo zio di mio marito è alto e muscoloso, e ha begli occhi azzurri.",
+   "en": "My husband's uncle is tall and muscular, and he has beautiful blue eyes.",
+   "note": "lo before z (lo zio); begli before a vowel in the masc. plural, like gli (gli occhi -> begli occhi)."
+  }
+ ],
+ "schema": "When bello comes before a noun, it changes exactly like the definite article. After the noun or after essere it is a normal -o adjective (è bello, sono belli).\n  il -> bel (un bel tatuaggio)\n  lo -> bello (un bello zio)\n  l' -> bell' (un bell'aspetto)\n  la -> bella (una bella madrina)\n  i -> bei (bei capelli)\n  gli -> begli (begli occhi)\n  le -> belle (belle cugine)",
+ "review": [
+  {
+   "it": "la carnagione",
+   "en": "complexion, skin tone"
+  },
+  {
+   "it": "volere bene a",
+   "en": "to love (family, friends)"
+  },
+  {
+   "it": "il genero",
+   "en": "son-in-law"
+  },
+  {
+   "it": "sembrare",
+   "en": "to seem (takes essere)"
+  },
+  {
+   "it": "celibe",
+   "en": "single (man)"
+  }
+ ],
+ "date": "2026-10-25"
+}

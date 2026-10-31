@@ -1,0 +1,159 @@
+{
+ "day": 8,
+ "week": 2,
+ "theme": "la casa, la routine quotidiana, l'ora",
+ "grammar": "present tense of regular verbs (-are, -ere, -ire) and reflexive verbs.",
+ "words": [
+  {
+   "it": "la sveglia",
+   "en": "alarm clock",
+   "ex": "Metto la sveglia alle sei."
+  },
+  {
+   "it": "svegliarsi",
+   "en": "to wake up; reflexive, takes essere",
+   "ex": "Mi sveglio presto."
+  },
+  {
+   "it": "alzarsi",
+   "en": "to get up; reflexive, takes essere",
+   "ex": "Mi alzo alle sette."
+  },
+  {
+   "it": "lavarsi",
+   "en": "to wash (oneself); reflexive, takes essere",
+   "ex": "Mi lavo i denti."
+  },
+  {
+   "it": "vestirsi",
+   "en": "to get dressed; reflexive (-ire), takes essere",
+   "ex": "Mi vesto in fretta."
+  },
+  {
+   "it": "fare colazione",
+   "en": "to have breakfast; fare is irregular (faccio), avere",
+   "ex": "Faccio colazione al bar."
+  },
+  {
+   "it": "pranzare",
+   "en": "to have lunch; regular, avere",
+   "ex": "Pranzo all'una."
+  },
+  {
+   "it": "cenare",
+   "en": "to have dinner; regular, avere",
+   "ex": "Ceniamo alle otto."
+  },
+  {
+   "it": "uscire di casa",
+   "en": "to leave the house; irregular (esco), takes essere",
+   "ex": "Esco di casa alle otto."
+  },
+  {
+   "it": "tornare",
+   "en": "to come back, return; takes essere",
+   "ex": "Torno a casa alle sei."
+  },
+  {
+   "it": "addormentarsi",
+   "en": "to fall asleep; reflexive, takes essere",
+   "ex": "Mi addormento tardi."
+  },
+  {
+   "it": "di solito",
+   "en": "usually",
+   "ex": "Di solito cucino io."
+  },
+  {
+   "it": "presto / tardi",
+   "en": "early / late",
+   "ex": "È tardi!"
+  },
+  {
+   "it": "Che ore sono?",
+   "en": "What time is it?",
+   "ex": "Scusi, che ore sono?"
+  },
+  {
+   "it": "un quarto / mezza",
+   "en": "a quarter / half (past)",
+   "ex": "le sette e un quarto; le otto e mezza"
+  },
+  {
+   "it": "mezzogiorno / mezzanotte",
+   "en": "noon / midnight (no article)",
+   "ex": "Pranzo a mezzogiorno."
+  },
+  {
+   "it": "la camera da letto",
+   "en": "bedroom",
+   "ex": "una camera da letto luminosa"
+  },
+  {
+   "it": "la cucina",
+   "en": "kitchen; cooking",
+   "ex": "Ceniamo in cucina."
+  },
+  {
+   "it": "il bagno",
+   "en": "bathroom",
+   "ex": "Il bagno è occupato."
+  },
+  {
+   "it": "il soggiorno",
+   "en": "living room",
+   "ex": "Guardo la TV in soggiorno."
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Di solito mi sveglio alle sette meno un quarto, ma mi alzo alle sette.",
+   "en": "I usually wake up at a quarter to seven, but I get up at seven.",
+   "note": "the reflexive pronoun (mi) goes right before the conjugated verb. \"alle\" = a + le (ore)."
+  },
+  {
+   "it": "Marta si lava e si veste in bagno, mentre suo marito prepara il caffè in cucina.",
+   "en": "Marta washes and gets dressed in the bathroom, while her husband makes coffee in the kitchen.",
+   "note": "lei/lui form: -are -> -a (prepara, si lava); -ire -> -e (si veste). \"in bagno, in cucina\": no article with rooms after in."
+  },
+  {
+   "it": "Usciamo di casa alle otto e mezza e torniamo verso le sei.",
+   "en": "We leave the house at half past eight and come back around six.",
+   "note": "the noi form always ends in -iamo, regular or not (torniamo, usciamo)."
+  },
+  {
+   "it": "Il sabato i miei figli si alzano tardi e fanno colazione a mezzogiorno.",
+   "en": "On Saturdays my kids get up late and have breakfast at noon.",
+   "note": "il sabato = every Saturday (habit). Loro form: -are -> -ano (si alzano); reflexive pronoun is si for both lui/lei and loro."
+  },
+  {
+   "it": "– Scusi, che ore sono? – Sono le dieci e mezza. L'ufficio chiude a mezzogiorno.",
+   "en": "– Excuse me, what time is it? – It's half past ten. The office closes at noon.",
+   "note": "\"Sono le + hour\" (plural), but \"È l'una / È mezzogiorno / È mezzanotte\" (singular). chiudere: -ere -> -e (chiude)."
+  }
+ ],
+ "schema": "Regular present: drop -are/-ere/-ire and add the endings. Reflexive verbs use the same endings, with mi/ti/si/ci/vi/si placed before the verb.\n            parlare prendere dormire alzarsi\n  io parlo prendo dormo mi alzo\n  tu parli prendi dormi ti alzi\n  lui/lei parla prende dorme si alza\n  noi parliamo prendiamo dormiamo ci alziamo\n  voi parlate prendete dormite vi alzate\n  loro parlano prendono dormono si alzano",
+ "review": [
+  {
+   "it": "la firma",
+   "en": "signature"
+  },
+  {
+   "it": "il coetaneo",
+   "en": "person of the same age"
+  },
+  {
+   "it": "avere fretta",
+   "en": "to be in a hurry"
+  },
+  {
+   "it": "lasciarsi",
+   "en": "to break up (reflexive, takes essere)"
+  },
+  {
+   "it": "disponibile",
+   "en": "helpful, willing; available"
+  }
+ ],
+ "date": "2026-10-28"
+}

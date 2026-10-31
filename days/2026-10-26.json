@@ -1,0 +1,159 @@
+{
+ "day": 6,
+ "week": 1,
+ "theme": "dati personali, famiglia, descrivere le persone",
+ "grammar": "essere / avere, articles, noun and adjective agreement. Today: the indefinite article (un, uno, una, un').",
+ "words": [
+  {
+   "it": "la coppia",
+   "en": "couple",
+   "ex": "una coppia giovane"
+  },
+  {
+   "it": "il matrimonio",
+   "en": "wedding; marriage",
+   "ex": "il matrimonio di mia cugina"
+  },
+  {
+   "it": "il soprannome",
+   "en": "nickname",
+   "ex": "Il mio soprannome è Gary."
+  },
+  {
+   "it": "il coetaneo / la coetanea",
+   "en": "person of the same age",
+   "ex": "È una mia coetanea."
+  },
+  {
+   "it": "l'ex (m./f., never changes)",
+   "en": "ex (partner)",
+   "ex": "la mia ex moglie"
+  },
+  {
+   "it": "lo scapolo",
+   "en": "bachelor (everyday word; on forms: celibe)",
+   "ex": "È ancora scapolo."
+  },
+  {
+   "it": "il sesso",
+   "en": "sex (on forms: M / F)",
+   "ex": "Sesso: M"
+  },
+  {
+   "it": "il domicilio",
+   "en": "address where you actually live (may differ from your official residence)",
+   "ex": "il domicilio a Milano"
+  },
+  {
+   "it": "i lineamenti",
+   "en": "facial features",
+   "ex": "lineamenti delicati"
+  },
+  {
+   "it": "la ruga (pl. le rughe)",
+   "en": "wrinkle",
+   "ex": "qualche ruga"
+  },
+  {
+   "it": "brizzolato / brizzolata",
+   "en": "greying, salt-and-pepper (hair)",
+   "ex": "capelli brizzolati"
+  },
+  {
+   "it": "grasso / grassa",
+   "en": "fat",
+   "ex": "un gatto grasso"
+  },
+  {
+   "it": "estroverso / introverso",
+   "en": "outgoing / introverted",
+   "ex": "una ragazza estroversa"
+  },
+  {
+   "it": "sensibile",
+   "en": "sensitive (NOT \"sensible\"; one form m./f., pl. sensibili)",
+   "ex": "un bambino sensibile"
+  },
+  {
+   "it": "geloso / gelosa",
+   "en": "jealous",
+   "ex": "Non essere geloso!"
+  },
+  {
+   "it": "chiacchierone / chiacchierona",
+   "en": "chatty; chatterbox",
+   "ex": "Mia zia è chiacchierona."
+  },
+  {
+   "it": "fidanzarsi",
+   "en": "to get engaged; reflexive, takes essere",
+   "ex": "Si sono fidanzati."
+  },
+  {
+   "it": "lasciarsi",
+   "en": "to break up; reflexive, takes essere",
+   "ex": "Ci siamo lasciati."
+  },
+  {
+   "it": "andare in pensione",
+   "en": "to retire; irregular (vado), takes essere",
+   "ex": "È andato in pensione."
+  },
+  {
+   "it": "Come si scrive?",
+   "en": "How do you spell it?",
+   "ex": "Come si scrive il Suo cognome?"
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Mio zio è uno scapolo chiacchierone e ha un soprannome divertente.",
+   "en": "My uncle is a chatty bachelor and has a funny nickname.",
+   "note": "uno before s + consonant (uno scapolo). With essere a bare status has no article (è scapolo), but add an adjective and the article comes back (è uno scapolo chiacchierone)."
+  },
+  {
+   "it": "Mia cugina e il suo ragazzo si sono fidanzati: sono una coppia giovane e il matrimonio è a giugno.",
+   "en": "My cousin and her boyfriend got engaged: they're a young couple and the wedding is in June.",
+   "note": "fidanzarsi takes essere, so the participle agrees: a man + a woman together -> masculine plural fidanzati. Giovane doesn't change with a feminine noun."
+  },
+  {
+   "it": "Mia madre ha un'amica molto sensibile e un amico un po' geloso.",
+   "en": "My mother has a very sensitive (female) friend and a slightly jealous (male) friend.",
+   "note": "apostrophe only for the feminine: un'amica but un amico. Sensibile stays the same for both genders; geloso agrees with amico."
+  },
+  {
+   "it": "Mio padre è andato in pensione: ha i capelli brizzolati e qualche ruga, ma ha un aspetto giovane.",
+   "en": "My father has retired: he has greying hair and a few wrinkles, but he looks young.",
+   "note": "qualche means \"some / a few\" but is always followed by a singular noun (qualche ruga, not qualche rughe). Avere for physical features."
+  },
+  {
+   "it": "Sul modulo c'è uno spazio per il domicilio: scriva un indirizzo italiano, per favore.",
+   "en": "On the form there is a space for your current address: please write an Italian address.",
+   "note": "uno spazio (s + consonant) vs un indirizzo (vowel, masculine -> no apostrophe). Scriva is the polite Lei form you'll hear at every office counter."
+  }
+ ],
+ "schema": "The indefinite article (\"a / an\") follows the same sound rules as il / lo / la / l'. The apostrophe is used only in the feminine, so un amico vs un'amica tells you the gender at once.\n  un – masc., most nouns (incl. vowels): un soprannome, un ex\n  uno – masc. before s + consonant, z, ps, gn: uno scapolo, uno zio\n  una – fem. before a consonant: una coppia, una ruga\n  un' – fem. before a vowel: un'amica, un'ex",
+ "review": [
+  {
+   "it": "la matrigna",
+   "en": "stepmother"
+  },
+  {
+   "it": "dimostrare",
+   "en": "to look (a certain age)"
+  },
+  {
+   "it": "litigare",
+   "en": "to argue"
+  },
+  {
+   "it": "pigro",
+   "en": "lazy"
+  },
+  {
+   "it": "la cicatrice",
+   "en": "scar"
+  }
+ ],
+ "date": "2026-10-26"
+}

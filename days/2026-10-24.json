@@ -1,0 +1,159 @@
+{
+ "day": 4,
+ "week": 1,
+ "theme": "dati personali, famiglia, descrivere le persone",
+ "grammar": "essere / avere, articles, noun and adjective agreement.",
+ "words": [
+  {
+   "it": "il patrigno / la matrigna",
+   "en": "stepfather / stepmother",
+   "ex": "Il mio patrigno è canadese."
+  },
+  {
+   "it": "il bisnonno / la bisnonna",
+   "en": "great-grandfather / great-grandmother",
+   "ex": "Ho una bisnonna di novant'anni."
+  },
+  {
+   "it": "il figlio unico / la figlia unica",
+   "en": "only child",
+   "ex": "Sono figlio unico."
+  },
+  {
+   "it": "la famiglia numerosa",
+   "en": "large family",
+   "ex": "Vengo da una famiglia numerosa."
+  },
+  {
+   "it": "il pensionato / la pensionata",
+   "en": "retiree, pensioner",
+   "ex": "Mio padre è pensionato."
+  },
+  {
+   "it": "il cittadino / la cittadina",
+   "en": "citizen",
+   "ex": "un cittadino americano"
+  },
+  {
+   "it": "il viso",
+   "en": "face",
+   "ex": "un viso rotondo"
+  },
+  {
+   "it": "la carnagione",
+   "en": "complexion, skin tone",
+   "ex": "Ha la carnagione chiara."
+  },
+  {
+   "it": "le lentiggini (f., sing. la lentiggine)",
+   "en": "freckles",
+   "ex": "Ha le lentiggini."
+  },
+  {
+   "it": "snello / snella",
+   "en": "slim",
+   "ex": "una donna snella"
+  },
+  {
+   "it": "carino / carina",
+   "en": "nice-looking, cute; also kind",
+   "ex": "Che bambina carina!"
+  },
+  {
+   "it": "divertente",
+   "en": "funny, fun",
+   "ex": "Mio zio è divertente."
+  },
+  {
+   "it": "tranquillo / tranquilla",
+   "en": "calm, quiet",
+   "ex": "un ragazzo tranquillo"
+  },
+  {
+   "it": "affettuoso / affettuosa",
+   "en": "affectionate",
+   "ex": "un nonno affettuoso"
+  },
+  {
+   "it": "ottimista",
+   "en": "optimistic (one form for m./f. singular; plural ottimisti / ottimiste)",
+   "ex": "Sono ottimista."
+  },
+  {
+   "it": "orgoglioso / orgogliosa di",
+   "en": "proud of",
+   "ex": "Sono orgoglioso di mia figlia."
+  },
+  {
+   "it": "volere bene a",
+   "en": "to love (family, friends); irregular (voglio), avere",
+   "ex": "Voglio bene ai miei nonni."
+  },
+  {
+   "it": "invecchiare",
+   "en": "to grow old; takes essere (è invecchiato)",
+   "ex": "Mio padre è invecchiato."
+  },
+  {
+   "it": "avere bisogno di",
+   "en": "to need",
+   "ex": "Ho bisogno di una foto."
+  },
+  {
+   "it": "avere ragione / avere torto",
+   "en": "to be right / to be wrong",
+   "ex": "Hai ragione!"
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Marco è figlio unico, ma sua moglie viene da una famiglia numerosa.",
+   "en": "Marco is an only child, but his wife comes from a large family.",
+   "note": "no article after essere for status (è figlio unico, not \"è un figlio unico\"); sua moglie – singular family member, no article."
+  },
+  {
+   "it": "Mia nonna ha la carnagione chiara, gli occhi verdi e tante lentiggini.",
+   "en": "My grandmother has a fair complexion, green eyes and lots of freckles.",
+   "note": "avere for physical features, with the definite article (la carnagione, gli occhi); tante agrees with lentiggini (fem. plural)."
+  },
+  {
+   "it": "Le mie figlie sono ottimiste e molto affettuose con i nonni.",
+   "en": "My daughters are optimistic and very affectionate with their grandparents.",
+   "note": "ottimista -> ottimiste (fem. pl.) / ottimisti (masc. pl.); affettuoso -> affettuose."
+  },
+  {
+   "it": "Il mio patrigno è pensionato, è un uomo tranquillo e ha sempre ragione!",
+   "en": "My stepfather is retired, he's a calm man and he's always right!",
+   "note": "\"il mio patrigno\" keeps the article (step-relatives aren't in the no-article group); English \"be right\" = Italian avere ragione."
+  },
+  {
+   "it": "Sono cittadino americano e per la domanda ho bisogno del certificato di nascita della mia bisnonna.",
+   "en": "I'm an American citizen and for the application I need my great-grandmother's birth certificate.",
+   "note": "avere bisogno di + il -> del; di + la -> della. Again no article: sono cittadino americano."
+  }
+ ],
+ "schema": "Italian uses avere + noun where English uses \"to be + adjective\". Learn them as fixed blocks. And with essere, a job or status has no article: è pensionato, è figlio unico, sono cittadino americano.\n  avere ... anni – to be ... years old\n  avere ragione / torto – to be right / wrong\n  avere bisogno di – to need\n  avere fame / sete / paura – to be hungry / thirsty / afraid",
+ "review": [
+  {
+   "it": "il recapito",
+   "en": "contact details (phone, address)"
+  },
+  {
+   "it": "fidarsi di",
+   "en": "to trust (reflexive, takes essere)"
+  },
+  {
+   "it": "il codice fiscale",
+   "en": "tax code"
+  },
+  {
+   "it": "educato",
+   "en": "polite"
+  },
+  {
+   "it": "il cognato",
+   "en": "brother-in-law"
+  }
+ ],
+ "date": "2026-10-24"
+}

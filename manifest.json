@@ -1,0 +1,12 @@
+{
+  "name": "Italiano B1",
+  "short_name": "Italiano B1",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#0f6b4f",
+  "icons": [
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

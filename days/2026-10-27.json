@@ -1,0 +1,159 @@
+{
+ "day": 7,
+ "week": 1,
+ "theme": "dati personali, famiglia, descrivere le persone",
+ "grammar": "essere / avere, articles, noun and adjective agreement. Today: tricky nouns (persona, gente, uomo, collega).",
+ "words": [
+  {
+   "it": "la persona",
+   "en": "person (always feminine, even for a man)",
+   "ex": "È una persona seria."
+  },
+  {
+   "it": "la gente",
+   "en": "people (singular: takes a singular verb)",
+   "ex": "La gente qui è gentile."
+  },
+  {
+   "it": "l'uomo (pl. gli uomini",
+   "en": "irregular) – man",
+   "ex": "un uomo alto"
+  },
+  {
+   "it": "il / la collega (pl. i colleghi / le colleghe)",
+   "en": "colleague",
+   "ex": "una collega simpatica"
+  },
+  {
+   "it": "il / la conoscente",
+   "en": "acquaintance",
+   "ex": "È solo un conoscente."
+  },
+  {
+   "it": "il / la residente",
+   "en": "resident",
+   "ex": "i residenti del comune"
+  },
+  {
+   "it": "l'altezza (f.)",
+   "en": "height",
+   "ex": "Altezza: 1,80 m."
+  },
+  {
+   "it": "i segni particolari",
+   "en": "distinguishing marks (on ID forms)",
+   "ex": "Segni particolari: nessuno."
+  },
+  {
+   "it": "la coda di cavallo",
+   "en": "ponytail",
+   "ex": "Porta la coda di cavallo."
+  },
+  {
+   "it": "lungo / corto",
+   "en": "long / short (pl. lunghi, lunghe / corti, corte)",
+   "ex": "capelli corti"
+  },
+  {
+   "it": "elegante",
+   "en": "smart, well-dressed (one form m./f.; pl. eleganti)",
+   "ex": "un signore elegante"
+  },
+  {
+   "it": "permaloso / permalosa",
+   "en": "touchy, easily offended",
+   "ex": "Non essere permaloso!"
+  },
+  {
+   "it": "ambizioso / ambiziosa",
+   "en": "ambitious",
+   "ex": "una donna ambiziosa"
+  },
+  {
+   "it": "disponibile",
+   "en": "helpful, willing; available",
+   "ex": "Il mio vicino è molto disponibile."
+  },
+  {
+   "it": "spiritoso / spiritosa",
+   "en": "witty",
+   "ex": "una risposta spiritosa"
+  },
+  {
+   "it": "descrivere",
+   "en": "to describe; irregular (descritto), avere",
+   "ex": "Può descrivere la persona?"
+  },
+  {
+   "it": "prendere da",
+   "en": "to take after; irregular (preso), avere",
+   "ex": "Prendo da mio padre."
+  },
+  {
+   "it": "avere in comune",
+   "en": "to have in common",
+   "ex": "Abbiamo molto in comune."
+  },
+  {
+   "it": "essere in gamba",
+   "en": "to be capable, sharp",
+   "ex": "Tua figlia è in gamba!"
+  },
+  {
+   "it": "Che tipo è?",
+   "en": "What's he / she like?",
+   "ex": "Che tipo è il tuo collega?"
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Mio suocero è una persona spiritosa e molto disponibile.",
+   "en": "My father-in-law is a witty and very helpful person.",
+   "note": "persona is always feminine, so spiritosa agrees with persona, not with the man it describes."
+  },
+  {
+   "it": "La gente del mio paese è curiosa e fa molte domande agli stranieri.",
+   "en": "The people in my town are curious and ask foreigners lots of questions.",
+   "note": "la gente is singular: è, fa, curiosa – never \"sono\" or \"curiosi\". agli = a + gli."
+  },
+  {
+   "it": "Le mie colleghe sono in gamba e ambiziose, ma i miei colleghi sono un po' permalosi.",
+   "en": "My (female) colleagues are sharp and ambitious, but my (male) colleagues are a bit touchy.",
+   "note": "collega ends in -a for both genders; the plural splits: i colleghi (add h) / le colleghe."
+  },
+  {
+   "it": "Sul modulo deve scrivere l'altezza, il colore degli occhi e gli eventuali segni particolari.",
+   "en": "On the form you must write your height, eye colour and any distinguishing marks.",
+   "note": "l' before a vowel (l'altezza is feminine); degli = di + gli; eventuali = \"any (if there are some)\"."
+  },
+  {
+   "it": "Mia figlia prende da sua madre: ha i capelli lunghi e porta spesso la coda di cavallo.",
+   "en": "My daughter takes after her mother: she has long hair and often wears a ponytail.",
+   "note": "prendere da + single family member with possessive, no article (da sua madre); lunghi adds h to keep the hard g sound."
+  }
+ ],
+ "schema": "Adjectives agree with the noun's grammatical gender, not with the person's sex. A few common nouns break the usual patterns – learn them with their article.\n  la persona -> always fem.: Marco è una persona seria.\n  la gente -> singular: La gente è gentile.\n  l'uomo -> gli uomini (irregular plural)\n  il collega / la collega -> i colleghi / le colleghe\n  il / la conoscente, il / la residente -> only the article shows gender",
+ "review": [
+  {
+   "it": "il soprannome",
+   "en": "nickname"
+  },
+  {
+   "it": "orgoglioso di",
+   "en": "proud of"
+  },
+  {
+   "it": "occuparsi di",
+   "en": "to look after, take care of (reflexive, takes essere)"
+  },
+  {
+   "it": "il domicilio",
+   "en": "the address where you actually live"
+  },
+  {
+   "it": "crescere",
+   "en": "to grow up (takes essere: cresciuto)"
+  }
+ ],
+ "date": "2026-10-27"
+}

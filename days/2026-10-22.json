@@ -1,0 +1,159 @@
+{
+ "day": 2,
+ "week": 1,
+ "theme": "dati personali, famiglia, descrivere le persone",
+ "grammar": "essere / avere, articles, noun and adjective agreement.",
+ "words": [
+  {
+   "it": "il carattere",
+   "en": "personality, character",
+   "ex": "Ha un buon carattere."
+  },
+  {
+   "it": "allegro / allegra",
+   "en": "cheerful",
+   "ex": "una ragazza allegra"
+  },
+  {
+   "it": "serio / seria",
+   "en": "serious",
+   "ex": "È un uomo serio."
+  },
+  {
+   "it": "pigro / pigra",
+   "en": "lazy",
+   "ex": "Il mio gatto è pigro."
+  },
+  {
+   "it": "testardo / testarda",
+   "en": "stubborn",
+   "ex": "Sei troppo testardo!"
+  },
+  {
+   "it": "gli occhiali",
+   "en": "glasses (always plural)",
+   "ex": "Porto gli occhiali."
+  },
+  {
+   "it": "i baffi",
+   "en": "moustache (plural)",
+   "ex": "Ha i baffi grigi."
+  },
+  {
+   "it": "riccio / liscio",
+   "en": "curly / straight (hair)",
+   "ex": "capelli ricci"
+  },
+  {
+   "it": "il fidanzato / la fidanzata",
+   "en": "boyfriend, fiancé / girlfriend, fiancée",
+   "ex": "la mia fidanzata"
+  },
+  {
+   "it": "vedovo / vedova",
+   "en": "widowed; widower / widow",
+   "ex": "Mia nonna è vedova."
+  },
+  {
+   "it": "il cognato / la cognata",
+   "en": "brother-in-law / sister-in-law",
+   "ex": "Mio cognato è medico."
+  },
+  {
+   "it": "l'età (f.)",
+   "en": "age",
+   "ex": "Età: 45 anni."
+  },
+  {
+   "it": "il codice fiscale",
+   "en": "tax code (Italian ID number)",
+   "ex": "Qual è il Suo codice fiscale?"
+  },
+  {
+   "it": "la firma",
+   "en": "signature",
+   "ex": "La firma, per favore."
+  },
+  {
+   "it": "compiere",
+   "en": "to turn (an age); irregular (compio), avere",
+   "ex": "Compio cinquant'anni."
+  },
+  {
+   "it": "crescere",
+   "en": "to grow up; irregular, takes essere (cresciuto)",
+   "ex": "Sono cresciuto a Boston."
+  },
+  {
+   "it": "conoscere",
+   "en": "to know (a person), to meet; avere (conosciuto)",
+   "ex": "Conosci mia sorella?"
+  },
+  {
+   "it": "sembrare",
+   "en": "to seem; takes essere",
+   "ex": "Sembri stanco."
+  },
+  {
+   "it": "andare d'accordo con",
+   "en": "to get along with; irregular (vado), essere",
+   "ex": "Vado d'accordo con lui."
+  },
+  {
+   "it": "Di dov'è?",
+   "en": "Where are you from? (formal; informal: Di dove sei?)",
+   "ex": "Di dov'è, signora?"
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Mio padre ha ottant'anni, porta gli occhiali e ha i baffi bianchi.",
+   "en": "My father is eighty, wears glasses and has a white moustache.",
+   "note": "age uses avere; \"bianchi\" is masc. plural to match \"baffi\" (bianco -> bianchi, adding h)."
+  },
+  {
+   "it": "Mio cognato è un uomo serio e un po' testardo, ma ha un buon carattere.",
+   "en": "My brother-in-law is a serious and somewhat stubborn man, but he has a good personality.",
+   "note": "\"buono\" shortens to \"buon\" before a masculine singular noun, like \"un\"."
+  },
+  {
+   "it": "Le mie cognate sono allegre e hanno i capelli ricci.",
+   "en": "My sisters-in-law are cheerful and have curly hair.",
+   "note": "fem. plural: \"le mie ... allegre\"; riccio -> ricci (one i, not two)."
+  },
+  {
+   "it": "Ho il codice fiscale, ma non ho ancora la carta d'identità italiana.",
+   "en": "I have my tax code, but I don't have an Italian ID card yet.",
+   "note": "Italian keeps the article where English uses \"my\" or nothing (il codice, la carta); \"non ... ancora\" = not yet."
+  },
+  {
+   "it": "Mia sorella va d'accordo con il suo fidanzato, ma lui sembra un po' pigro.",
+   "en": "My sister gets along with her boyfriend, but he seems a bit lazy.",
+   "note": "\"mia sorella\" has no article (close family, singular), but \"il suo fidanzato\" does: fidanzato isn't in that family group."
+  }
+ ],
+ "schema": "Adjectives match the noun in gender and number. Adjectives ending in -o have four forms; those ending in -e have two. Watch spelling: -co/-ca usually adds h in the plural, and -io drops one i.\n  -o: serio, seria, seri, serie\n  -e: felice, felice, felici, felici\n  -co: bianco, bianca, bianchi, bianche\n  -io: riccio, riccia, ricci, ricce",
+ "review": [
+  {
+   "it": "lo stato civile",
+   "en": "marital status"
+  },
+  {
+   "it": "nascere",
+   "en": "to be born (takes essere: nato)"
+  },
+  {
+   "it": "socievole",
+   "en": "sociable"
+  },
+  {
+   "it": "il parente",
+   "en": "relative"
+  },
+  {
+   "it": "la cittadinanza",
+   "en": "citizenship"
+  }
+ ],
+ "date": "2026-10-22"
+}

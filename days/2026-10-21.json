@@ -1,0 +1,159 @@
+{
+ "day": 1,
+ "week": 1,
+ "theme": "dati personali, famiglia, descrivere le persone",
+ "grammar": "essere / avere, articles, noun and adjective agreement.",
+ "words": [
+  {
+   "it": "il nome",
+   "en": "first name",
+   "ex": "Il mio nome è Garrick."
+  },
+  {
+   "it": "l'indirizzo (m.)",
+   "en": "address",
+   "ex": "Qual è il Suo indirizzo?"
+  },
+  {
+   "it": "lo stato civile",
+   "en": "marital status",
+   "ex": "Stato civile: divorziato."
+  },
+  {
+   "it": "celibe / nubile",
+   "en": "single (man / woman)",
+   "ex": "Mio fratello è celibe."
+  },
+  {
+   "it": "divorziato / divorziata",
+   "en": "divorced",
+   "ex": "Sono divorziato."
+  },
+  {
+   "it": "il figlio / la figlia",
+   "en": "son / daughter",
+   "ex": "Ho una figlia."
+  },
+  {
+   "it": "i nonni",
+   "en": "grandparents",
+   "ex": "I miei nonni sono di Napoli."
+  },
+  {
+   "it": "lo zio / la zia",
+   "en": "uncle / aunt",
+   "ex": "Mia zia abita a Roma."
+  },
+  {
+   "it": "il parente",
+   "en": "relative",
+   "ex": "Ho molti parenti in Italia."
+  },
+  {
+   "it": "la nazionalità",
+   "en": "nationality",
+   "ex": "Di che nazionalità è?"
+  },
+  {
+   "it": "abitare",
+   "en": "to live (reside); regular, avere",
+   "ex": "Abito in via Garibaldi."
+  },
+  {
+   "it": "nascere",
+   "en": "to be born; irregular, takes essere (nato)",
+   "ex": "Sono nato nel 1980."
+  },
+  {
+   "it": "chiamarsi",
+   "en": "to be called; reflexive, takes essere",
+   "ex": "Come si chiama?"
+  },
+  {
+   "it": "sposarsi",
+   "en": "to get married; takes essere",
+   "ex": "Ci siamo sposati a giugno."
+  },
+  {
+   "it": "magro / robusto",
+   "en": "thin / stocky",
+   "ex": "È un ragazzo magro."
+  },
+  {
+   "it": "giovane / anziano",
+   "en": "young / elderly",
+   "ex": "una signora anziana"
+  },
+  {
+   "it": "biondo / castano",
+   "en": "blond / brown-haired",
+   "ex": "Mia figlia è bionda."
+  },
+  {
+   "it": "timido / socievole",
+   "en": "shy / sociable",
+   "ex": "Sono un po' timido."
+  },
+  {
+   "it": "la barba",
+   "en": "beard",
+   "ex": "Mio padre porta la barba."
+  },
+  {
+   "it": "Piacere!",
+   "en": "Nice to meet you!",
+   "ex": "Piacere, Garrick."
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Mi chiamo Garrick Thomas e sono nato negli Stati Uniti.",
+   "en": "My name is Garrick Thomas and I was born in the United States.",
+   "note": "nascere takes essere, so the participle agrees with the subject (nato / nata). \"Negli\" = in + gli, because Stati Uniti is masculine plural."
+  },
+  {
+   "it": "I miei nonni sono di Napoli, ma adesso abitano a Torino.",
+   "en": "My grandparents are from Naples, but now they live in Turin.",
+   "note": "plural family members keep the article (i miei nonni); \"essere di + city\" = to be from."
+  },
+  {
+   "it": "Allo sportello mi chiedono lo stato civile: sono divorziato e ho una figlia.",
+   "en": "At the counter they ask me my marital status: I'm divorced and I have a daughter.",
+   "note": "\"lo\" before s + consonant (lo stato); essere for status, avere for what you have."
+  },
+  {
+   "it": "Mia zia è una donna giovane, bionda e un po' timida.",
+   "en": "My aunt is a young, blonde, slightly shy woman.",
+   "note": "adjectives follow the noun; -o adjectives become -a (bionda, timida), but -e adjectives don't change (giovane)."
+  },
+  {
+   "it": "Ho molti parenti in Italia, ma non ho l'indirizzo di tutti.",
+   "en": "I have many relatives in Italy, but I don't have everyone's address.",
+   "note": "\"molti\" agrees with parenti (masc. plural); \"l'\" before a vowel (l'indirizzo)."
+  }
+ ],
+ "schema": "Essere = who/what someone is (name, origin, status, character). Avere = what someone has (children, relatives, age). The article and every adjective must match the noun's gender and number.\n  masc. sing.: il nonno / lo zio / l'indirizzo masc. pl.: i nonni / gli zii / gli indirizzi\n  fem. sing.: la zia / l'amica fem. pl.: le zie / le amiche\n  adjectives: biondo, bionda, biondi, bionde / giovane, giovani",
+ "review": [
+  {
+   "it": "il cognome",
+   "en": "surname"
+  },
+  {
+   "it": "i suoceri",
+   "en": "parents-in-law"
+  },
+  {
+   "it": "trasferirsi",
+   "en": "to move (takes essere)"
+  },
+  {
+   "it": "assomigliare a",
+   "en": "to resemble"
+  },
+  {
+   "it": "straniero",
+   "en": "foreign; foreigner"
+  }
+ ],
+ "date": "2026-10-21"
+}

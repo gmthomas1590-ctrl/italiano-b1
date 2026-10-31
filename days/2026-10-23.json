@@ -1,0 +1,159 @@
+{
+ "day": 3,
+ "week": 1,
+ "theme": "dati personali, famiglia, descrivere le persone",
+ "grammar": "essere / avere, articles, noun and adjective agreement.",
+ "words": [
+  {
+   "it": "il / la coniuge",
+   "en": "spouse",
+   "ex": "il nome del coniuge"
+  },
+  {
+   "it": "il compagno / la compagna",
+   "en": "partner",
+   "ex": "Vivo con la mia compagna."
+  },
+  {
+   "it": "il genero / la nuora",
+   "en": "son-in-law / daughter-in-law",
+   "ex": "Mia nuora è inglese."
+  },
+  {
+   "it": "il gemello / la gemella",
+   "en": "twin",
+   "ex": "Ha un fratello gemello."
+  },
+  {
+   "it": "il vicino / la vicina di casa",
+   "en": "neighbour",
+   "ex": "Il mio vicino di casa è gentile."
+  },
+  {
+   "it": "la professione",
+   "en": "occupation (on forms)",
+   "ex": "Professione: ingegnere."
+  },
+  {
+   "it": "il recapito",
+   "en": "contact details (phone, address)",
+   "ex": "un recapito telefonico"
+  },
+  {
+   "it": "maggiorenne / minorenne",
+   "en": "of age (18+) / under 18",
+   "ex": "Mio figlio è maggiorenne."
+  },
+  {
+   "it": "separato / separata",
+   "en": "separated",
+   "ex": "Sono separato da un anno."
+  },
+  {
+   "it": "gentile",
+   "en": "kind",
+   "ex": "una signora gentile"
+  },
+  {
+   "it": "generoso / generosa",
+   "en": "generous",
+   "ex": "Sei molto generoso."
+  },
+  {
+   "it": "educato / maleducato",
+   "en": "polite / rude",
+   "ex": "un bambino educato"
+  },
+  {
+   "it": "sincero / sincera",
+   "en": "honest, sincere",
+   "ex": "un'amica sincera"
+  },
+  {
+   "it": "paziente",
+   "en": "patient",
+   "ex": "Mia madre è paziente."
+  },
+  {
+   "it": "calvo / calva",
+   "en": "bald",
+   "ex": "Mio zio è calvo."
+  },
+  {
+   "it": "di media statura",
+   "en": "of medium height",
+   "ex": "un uomo di media statura"
+  },
+  {
+   "it": "occuparsi di",
+   "en": "to look after, take care of; reflexive, takes essere",
+   "ex": "Mi occupo dei bambini."
+  },
+  {
+   "it": "fidarsi di",
+   "en": "to trust; reflexive, takes essere",
+   "ex": "Mi fido di te."
+  },
+  {
+   "it": "litigare",
+   "en": "to argue; avere (ho litigato)",
+   "ex": "Litigano spesso."
+  },
+  {
+   "it": "Le presento…",
+   "en": "May I introduce… (formal)",
+   "ex": "Le presento mia moglie."
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Mia nuora è una donna gentile e paziente, e i suoi genitori sono molto generosi.",
+   "en": "My daughter-in-law is a kind and patient woman, and her parents are very generous.",
+   "note": "gentile and paziente end in -e, so they stay the same with a feminine noun; generoso -> generosi (masc. plural)."
+  },
+  {
+   "it": "Nel modulo scriva il nome del coniuge, la professione e un recapito telefonico.",
+   "en": "On the form, write your spouse's name, your occupation and a contact phone number.",
+   "note": "del = di + il; \"il coniuge\" is masculine here only because of the article – the noun itself doesn't change."
+  },
+  {
+   "it": "I gemelli della mia vicina di casa sono maggiorenni e sono ragazzi molto educati.",
+   "en": "My neighbour's twins are over 18 and they are very polite young men.",
+   "note": "maggiorenne -> maggiorenni (-e becomes -i in the plural, for both genders); della = di + la."
+  },
+  {
+   "it": "Mio genero è calvo, è di media statura e ha quarant'anni.",
+   "en": "My son-in-law is bald, of medium height and forty years old.",
+   "note": "essere for description, avere for age; quaranta + anni -> quarant'anni."
+  },
+  {
+   "it": "Mia sorella è separata, ma non litiga con il suo ex marito: si occupano insieme dei figli.",
+   "en": "My sister is separated, but she doesn't argue with her ex-husband: they look after the children together.",
+   "note": "separata agrees with sorella; occuparsi di + i figli -> dei figli."
+  }
+ ],
+ "schema": "Nouns and adjectives ending in -e have only two forms: -e (singular) and -i (plural), for both masculine and feminine. The article, or another -o/-a word nearby, tells you the gender.\n  masc.: il coniuge gentile -> i coniugi gentili\n  fem.: la coniuge gentile -> le coniugi gentili",
+ "review": [
+  {
+   "it": "testardo",
+   "en": "stubborn"
+  },
+  {
+   "it": "i baffi",
+   "en": "moustache"
+  },
+  {
+   "it": "compiere",
+   "en": "to turn (an age)"
+  },
+  {
+   "it": "vedovo / vedova",
+   "en": "widowed; widower / widow"
+  },
+  {
+   "it": "andare d'accordo con",
+   "en": "to get along with"
+  }
+ ],
+ "date": "2026-10-23"
+}
