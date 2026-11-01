@@ -1,0 +1,159 @@
+{
+ "day": 12,
+ "week": 2,
+ "theme": "la casa, la routine quotidiana, l'ora",
+ "grammar": "present tense of regular verbs and reflexive verbs. Today: negatives (non … mai) and frequency adverbs with reflexive verbs (non mi sveglio mai presto).",
+ "words": [
+  {
+   "it": "spesso",
+   "en": "often",
+   "ex": "Mi fermo spesso al bar."
+  },
+  {
+   "it": "non … mai",
+   "en": "never (non before the verb, mai after)",
+   "ex": "Non cucino mai."
+  },
+  {
+   "it": "raramente",
+   "en": "rarely",
+   "ex": "Esco raramente la sera."
+  },
+  {
+   "it": "quasi sempre",
+   "en": "almost always",
+   "ex": "Ceno quasi sempre a casa."
+  },
+  {
+   "it": "tutti i giorni",
+   "en": "every day",
+   "ex": "Prendo l'autobus tutti i giorni."
+  },
+  {
+   "it": "rifare il letto",
+   "en": "to make the bed; irregular like fare (rifaccio), avere",
+   "ex": "Rifaccio il letto ogni mattina."
+  },
+  {
+   "it": "buttare la spazzatura",
+   "en": "to take out the rubbish; regular, avere",
+   "ex": "Butti tu la spazzatura?"
+  },
+  {
+   "it": "annaffiare le piante",
+   "en": "to water the plants; regular (-iare: tu annaffi), avere",
+   "ex": "Annaffio le piante sul terrazzo."
+  },
+  {
+   "it": "fermarsi",
+   "en": "to stop; to stay (a while); reflexive, takes essere",
+   "ex": "Mi fermo dal medico."
+  },
+  {
+   "it": "sentirsi",
+   "en": "to feel; reflexive (-ire), takes essere",
+   "ex": "Mi sento bene."
+  },
+  {
+   "it": "lamentarsi (di)",
+   "en": "to complain (about); reflexive, takes essere",
+   "ex": "Si lamenta sempre."
+  },
+  {
+   "it": "il letto",
+   "en": "bed",
+   "ex": "un letto matrimoniale"
+  },
+  {
+   "it": "l'armadio (m.)",
+   "en": "wardrobe",
+   "ex": "L'armadio è pieno."
+  },
+  {
+   "it": "il lavandino",
+   "en": "sink, washbasin",
+   "ex": "Il lavandino perde acqua."
+  },
+  {
+   "it": "il forno",
+   "en": "oven",
+   "ex": "Il pane è nel forno."
+  },
+  {
+   "it": "la raccolta differenziata",
+   "en": "recycling, waste sorting",
+   "ex": "Qui facciamo la raccolta differenziata."
+  },
+  {
+   "it": "il rumore",
+   "en": "noise",
+   "ex": "C'è troppo rumore."
+  },
+  {
+   "it": "comodo / comoda",
+   "en": "comfortable; convenient",
+   "ex": "un divano comodo"
+  },
+  {
+   "it": "di notte",
+   "en": "at night",
+   "ex": "Di notte dormo poco."
+  },
+  {
+   "it": "Che giorno è oggi?",
+   "en": "What day is it today?",
+   "ex": "Che giorno è oggi? È lunedì."
+  }
+ ],
+ "sentences": [
+  {
+   "it": "Non mi sveglio mai prima delle sette, ma rifaccio sempre il letto e metto i vestiti nell'armadio.",
+   "en": "I never wake up before seven, but I always make the bed and put my clothes in the wardrobe.",
+   "note": "non goes before the reflexive pronoun and mai right after the verb: non mi sveglio mai. nell' = in + l'."
+  },
+  {
+   "it": "Mia moglie si lamenta spesso del rumore dei vicini di notte.",
+   "en": "My wife often complains about the neighbours' noise at night.",
+   "note": "spesso comes straight after the verb. lamentarsi di + il = del; di + i = dei."
+  },
+  {
+   "it": "Nel nostro condominio facciamo la raccolta differenziata e io butto la spazzatura quasi sempre di sera.",
+   "en": "In our building we sort our rubbish for recycling and I almost always take it out in the evening.",
+   "note": "quasi sempre also follows the verb. Regular -are io form: butto. \"di sera / di notte\" = in the evening / at night."
+  },
+  {
+   "it": "Non ti senti bene? Perché non ti fermi a casa oggi?",
+   "en": "Don't you feel well? Why don't you stay at home today?",
+   "note": "questions keep the same word order as statements – only the intonation rises. non + ti + verb, every time."
+  },
+  {
+   "it": "– Che giorno è oggi? – È sabato! Il sabato mi alzo raramente prima delle nove: il letto è troppo comodo.",
+   "en": "– What day is it today? – It's Saturday! On Saturdays I rarely get up before nine: the bed is too comfortable.",
+   "note": "è sabato (today) vs il sabato (every Saturday). comodo agrees with letto (masc. sing.)."
+  }
+ ],
+ "schema": "To make a reflexive verb negative, put non in front of the pronoun – never between the pronoun and the verb. Frequency adverbs (sempre, spesso, raramente, mai) normally go right after the verb. Italian needs a double negative with mai: non … mai.\n  Mi sveglio presto. -> Non mi sveglio presto. -> Non mi sveglio mai presto.\n  Ti lamenti spesso. -> Non ti lamenti spesso.\n  Ci fermiamo sempre al bar. -> Non ci fermiamo mai al bar.",
+ "review": [
+  {
+   "it": "il trasloco",
+   "en": "house move"
+  },
+  {
+   "it": "sbrigarsi",
+   "en": "to hurry up (reflexive, takes essere)"
+  },
+  {
+   "it": "la lavastoviglie",
+   "en": "dishwasher"
+  },
+  {
+   "it": "l'ascensore",
+   "en": "lift, elevator"
+  },
+  {
+   "it": "il soprannome",
+   "en": "nickname"
+  }
+ ],
+ "date": "2026-11-01"
+}
