@@ -70,6 +70,12 @@ pre{white-space:pre-wrap;font:14px/1.5 ui-monospace,Menlo,monospace;margin:0}
 input[type=search]{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);
   background:var(--card);color:var(--ink);font:inherit;margin-bottom:12px}
 .big{font-size:40px;font-weight:700;color:var(--accent)}
+.word,.sent{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:start}
+.word > div,.sent > div{min-width:0}
+.speak{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;padding:0}
+.speak svg{width:17px;height:17px;stroke:var(--accent);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.speak.playing{background:var(--accent-soft);border-color:var(--accent)}
+.speak.big{width:56px;height:56px} .speak.big svg{width:24px;height:24px}
 </style>
 </head>
 <body>
@@ -93,6 +99,25 @@ const store = {
 };
 let INDEX = [], CACHE = {}, view = 'today', current = null, tab = 'words';
 
+/* ---------- audio: the phone's Italian voice ---------- */
+const canSpeak = 'speechSynthesis' in window;
+let itVoice = null;
+function pickVoice(){ if (!canSpeak) return; const v = speechSynthesis.getVoices(); itVoice = v.find(x => /^it[-_]/i.test(x.lang) && /alice|federica|luca|google/i.test(x.name)) || v.find(x => /^it/i.test(x.lang)) || null; }
+if (canSpeak){ pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+const speakable = s => String(s).replace(/\([^)]*\)/g, '').replace(/[–—]/g, ',').replace(/…/g, '').replace(/\s*\/\s*/g, ', ').replace(/^\s*,\s*/, '').trim();
+function say(text, btn){
+  if (!canSpeak) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(speakable(text));
+  u.lang = 'it-IT'; if (itVoice) u.voice = itVoice; u.rate = store.get('rate', 0.9);
+  document.querySelectorAll('.speak.playing').forEach(b => b.classList.remove('playing'));
+  if (btn){ btn.classList.add('playing'); u.onend = u.onerror = () => btn.classList.remove('playing'); }
+  speechSynthesis.speak(u);
+}
+const ICON = '<svg viewBox="0 0 24 24"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+const speakBtn = (t, cls = '', id = '') => canSpeak ? `<button class="speak ${cls}" ${id ? `id="${id}"` : ''} aria-label="Ascolta" data-say="${esc(t)}">${ICON}</button>` : '';
+document.addEventListener('click', e => { const b = e.target.closest('[data-say]'); if (b){ e.stopPropagation(); say(b.dataset.say, b); } });
+
 async function getJSON(p){
   const r = await fetch(p, {cache:'no-cache'});
   if (!r.ok) throw new Error(p + ' ' + r.status);
@@ -112,6 +137,7 @@ function fmtDate(iso){
 
 function go(v){
   view = v;
+  if (canSpeak) speechSynthesis.cancel();
   document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.v === v || (v === 'day' && b.dataset.v === 'days')));
   window.scrollTo(0, 0);
   ({today: showToday, days: showDays, quiz: showQuizSetup, search: showSearch, day: () => showDay(current)})[v]();
@@ -129,17 +155,20 @@ async function showDay(date, isToday){
   const tabs = [['words','Parole'],['sentences','Frasi'],['schema','Schema'],['review','Ripasso']];
   let body = '';
   if (tab === 'words') body = d.words.map((w,i) =>
-    `<div class="word"><div><span class="num">${i+1}</span><span class="it">${esc(w.it)}</span></div>
-     <div class="en">${esc(w.en)}</div>${w.ex ? `<div class="ex">${esc(w.ex)}</div>` : ''}</div>`).join('');
+    `<div class="word"><div><div><span class="num">${i+1}</span><span class="it">${esc(w.it)}</span></div>
+     <div class="en">${esc(w.en)}</div>${w.ex ? `<div class="ex">${esc(w.ex)}</div>` : ''}</div>
+     ${speakBtn(w.it + '. ' + (w.ex || ''))}</div>`).join('');
   if (tab === 'sentences') body = d.sentences.map((s,i) =>
-    `<div class="sent"><div class="it">${i+1}. ${esc(s.it)}</div>
+    `<div class="sent"><div><div class="it">${i+1}. ${esc(s.it)}</div>
      <div class="en hidden-en" onclick="this.classList.remove('hidden-en')">${esc(s.en)}</div>
-     ${s.note ? `<div class="note"><b>Nota:</b> ${esc(s.note)}</div>` : ''}</div>`).join('') +
+     ${s.note ? `<div class="note"><b>Nota:</b> ${esc(s.note)}</div>` : ''}</div>
+     ${speakBtn(s.it)}</div>`).join('') +
      '<p class="small muted">Tocca la riga grigia per vedere la traduzione.</p>';
   if (tab === 'schema') body = `<pre>${esc(d.schema)}</pre>`;
   if (tab === 'review') body = d.review.map((r,i) =>
-    `<div class="word"><div class="it">${i+1}. ${esc(r.it)}</div>
-     <div class="en hidden-en" onclick="this.classList.remove('hidden-en')">${esc(r.en) || '—'}</div></div>`).join('') +
+    `<div class="word"><div><div class="it">${i+1}. ${esc(r.it)}</div>
+     <div class="en hidden-en" onclick="this.classList.remove('hidden-en')">${esc(r.en) || '—'}</div></div>
+     ${speakBtn(r.it)}</div>`).join('') +
      '<p class="small muted">Tocca per vedere la risposta.</p>';
   $('#app').innerHTML = `
     <div class="card">
@@ -174,6 +203,7 @@ function showDays(){
 let Q = null;
 function showQuizSetup(){
   const scope = store.get('scope','week'), dir = store.get('dir','it'), n = store.get('n',10);
+  const mode = store.get('mode','read'), rate = store.get('rate',0.9);
   const misses = store.get('misses', {});
   const nm = Object.keys(misses).length;
   $('#app').innerHTML = `
@@ -185,14 +215,20 @@ function showQuizSetup(){
       <div class="seg" id="dir">${[['it','IT → EN'],['en','EN → IT'],['mix','Misto']].map(([k,l]) => `<button data-k="${k}" class="${k===dir?'on':''}">${l}</button>`).join('')}</div>
       <div class="small muted">Domande</div>
       <div class="seg" id="n">${[5,10,20].map(k => `<button data-k="${k}" class="${k==n?'on':''}">${k}</button>`).join('')}</div>
+      ${canSpeak ? `<div class="small muted">Tipo</div>
+      <div class="seg" id="mode">${[['read','Leggi'],['listen','Ascolta']].map(([k,l]) => `<button data-k="${k}" class="${k===mode?'on':''}">${l}</button>`).join('')}</div>
+      <div class="small muted">Velocità della voce</div>
+      <div class="seg" id="rate">${[[0.75,'Lenta'],[0.9,'Normale']].map(([k,l]) => `<button data-k="${k}" class="${k==rate?'on':''}">${l}</button>`).join('')}</div>` : ''}
       <button class="btn" id="go">Inizia</button>
       ${nm ? `<button class="btn ghost" id="miss">Ripassa gli errori (${nm})</button>` : ''}
     </div>`;
-  ['scope','dir','n'].forEach(id => document.querySelectorAll('#' + id + ' button').forEach(b => b.onclick = () => {
-    store.set(id, id === 'n' ? +b.dataset.k : b.dataset.k); showQuizSetup();
+  ['scope','dir','n','mode','rate'].forEach(id => document.querySelectorAll('#' + id + ' button').forEach(b => b.onclick = () => {
+    store.set(id, (id === 'n' || id === 'rate') ? +b.dataset.k : b.dataset.k);
+    if (id === 'rate') say('Buongiorno, come sta?');
+    showQuizSetup();
   }));
-  $('#go').onclick = () => startQuiz({scope: store.get('scope','week'), dir: store.get('dir','it'), n: store.get('n',10)});
-  if ($('#miss')) $('#miss').onclick = () => startQuiz({scope:'misses', dir: store.get('dir','it'), n: 20});
+  $('#go').onclick = () => startQuiz({scope: store.get('scope','week'), dir: store.get('dir','it'), n: store.get('n',10), mode: store.get('mode','read')});
+  if ($('#miss')) $('#miss').onclick = () => startQuiz({scope:'misses', dir: store.get('dir','it'), n: 20, mode: store.get('mode','read')});
 }
 
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]] = [a[j],a[i]]; } return a; };
@@ -201,7 +237,8 @@ const key = w => w.it + '|' + w.en;
 const cleanEn = s => s.split(';')[0].replace(/\s*\([^)]*\)/g, '').trim();
 const cleanIt = s => s.replace(/\s*\((m\.|f\.|m\.\/f\.|[^)]*pl\.[^)]*|[^)]*invariable[^)]*)\)/g, '').trim();
 
-async function startQuiz({scope, date, dir, n = 10}){
+async function startQuiz({scope, date, dir, n = 10, mode = 'read'}){
+  if (mode === 'listen' && canSpeak) dir = 'it'; else mode = 'read';
   const all = await loadAll();
   const pool = all.flatMap(d => d.words.map(w => ({...w, date: d.date, week: d.week})));
   const latest = INDEX[INDEX.length - 1];
@@ -219,7 +256,7 @@ async function startQuiz({scope, date, dir, n = 10}){
       .map(o => side(o, d === 'it' ? 'en' : 'it')))].filter(o => o !== answer).slice(0, 3);
     return {w, prompt, answer, ex: w.ex + ' — ' + w.it + ': ' + w.en, opts: shuffle([answer, ...others])};
   });
-  Q = {qs, i: 0, score: 0, scope, date: scope === 'day' ? (date || latest.date) : null};
+  Q = {qs, i: 0, score: 0, scope, mode, date: scope === 'day' ? (date || latest.date) : null};
   showQ();
 }
 
@@ -229,7 +266,10 @@ function showQ(){
     <div class="card">
       <div class="row small muted"><span>${Q.i + 1} / ${Q.qs.length}</span><span>Punti: ${Q.score}</span></div>
       <div class="bar"><i style="width:${Q.i / Q.qs.length * 100}%"></i></div>
-      <div class="q">${esc(q.prompt)}</div>
+      ${Q.mode === 'listen'
+        ? `<div style="display:flex;gap:14px;align-items:center;margin:8px 0">${speakBtn(q.prompt, 'big', 'play')}<span class="small muted">Ascolta e scegli il significato.</span></div>
+           <div class="q" id="hp" hidden>${esc(q.prompt)}</div>`
+        : `<div class="q">${esc(q.prompt)}</div>`}
       <div id="ex" class="small muted" style="min-height:20px"></div>
       ${q.opts.map((o,i) => `<button class="opt" data-i="${i}">${esc(o)}</button>`).join('')}
       <button class="btn" id="next" style="display:none">Avanti</button>
@@ -244,10 +284,12 @@ function showQ(){
       document.querySelectorAll('.opt').forEach(x => { if (q.opts[+x.dataset.i] === q.answer) x.classList.add('right'); });
     }
     store.set('misses', misses);
+    if ($('#hp')) $('#hp').hidden = false;
     if (q.ex) $('#ex').textContent = q.ex;
     $('#next').style.display = 'block';
     if (navigator.vibrate && !ok) navigator.vibrate(60);
   });
+  if (Q.mode === 'listen') setTimeout(() => say(q.prompt, $('#play')), 150);
   $('#next').onclick = () => { Q.answered = false; Q.i++; Q.i < Q.qs.length ? showQ() : endQuiz(); };
 }
 
